@@ -87,7 +87,7 @@ df_latam.to_csv('relatorio_felicidade_latam_2024.csv', index=False)
 
 ```
 📁 etl_felicidade_2024/
-├──📁 data/                                        # Dados brutos e processados
+├──📁 data/                                      # Dados brutos e processados
 │   ├── World_Happiness_Report_2024.csv          # Dataset original (fonte)
 │   └── relatorio_felicidade_latam_2024.csv      # Dataset processado (LATAM)
 ├── etl_felicidade.ipynb                         # Notebook com o pipeline ETL
